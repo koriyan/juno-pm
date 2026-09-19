@@ -1,4 +1,4 @@
-# Lovable Prototype · Juno
+# Claude Prototype · Juno
 
 > Module 1 · Prompting. The clickable Lovable prototype that brings the system prompt to life.
 
