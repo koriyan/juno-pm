@@ -10,7 +10,7 @@ _____
 
 ## What it demonstrates
 
-_The one flow this prototype proves._
+_A clickable three column workflow for Juno PM. Raw transcripts on the left, structured insight cards in the middle, a draft PRD in markdown on the right, showing where an AI associate PM fits into the synthesis loop without taking the pen away from the human._
 
 _____
 
