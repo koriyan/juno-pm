@@ -1,10 +1,10 @@
 # Claude Prototype · Juno
 
-> Module 1 · Prompting. The clickable Lovable prototype that brings the system prompt to life.
+> Module 1 · Prompting. The clickable Claude prototype that deployed on Replit.
 
 ## Prototype link
 
-_The public Lovable share URL._
+_https://juno-kori.replit.app_
 
 _____
 
