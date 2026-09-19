@@ -1,4 +1,4 @@
-# Claude Prototype · Juno
+# Prototype · Juno
 
 > Module 1 · Prompting. The clickable Claude prototype that deployed on Replit.
 
