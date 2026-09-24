@@ -71,13 +71,11 @@ This repo is my final project for the AI Product Management Certification — **
 
 ## Build Insights
 
-- **Friction point.** Retrieval quality was the bottleneck — chunking strategy mattered more than the model.
-- **Key learning.** Eval rubrics force the product decisions that PRDs let you hide.
-- **Aha moment.** The system prompt is the product — the UI is the wrapper.
+- **Friction point.** Not the model — the same judgement written in three places. "Is this insight ranked?" was decided independently by the insight cards, the PRD generator and the eval panel, and when retrieval failed they disagreed: the cards said UNRANKED, the PRD printed an authored P1/P2 fallback directly underneath a sentence saying no priority was proposed, and the eval layer failed all three for not citing anything. Most of my debugging was reconciling surfaces that each held a private opinion about state, not improving output quality.
+- **Key learning.** The gaps are better output than the scores. Two rubric dimensions cannot be evidenced by this build — accuracy needs a golden answer it cannot load, actionability tops out at 3 because there is no owner or ETA field — and marking them un-scoreable surfaced the two most useful findings in the whole evaluation. The same rule runs upstream: the release gate blocks on PII not because PII was found, but because nothing measures it.
+- **Aha moment.** Confidence stopped being a label and the autonomy dial fell out of it. Once the score was a real weighted function I could no longer set autonomy by hand — the band had to be derived from the number. The sharper half: evidence strength and sample size are different axes. "I am sure what this person meant" is not "I am sure anyone else means it," so every single-interview finding takes a haircut, and what rescues an n=1 is corroboration. One interview plus 65 support tickets clears the auto bar; the same interview alone does not.
 
 ---
-
-_Certification submission — AI Product Management Certification._
 
 
 _Certification submission — AI Product Management Certification._
